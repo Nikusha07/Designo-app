@@ -1,12 +1,12 @@
 import './App.css';
-import MainHeader from './importantTags/Header'
+import MainHeader from './Components/Header'
 import MainBoxImg from './images/Bitmap.png'
 import PoneImg from './images/phone.svg'
 import DivBackgroundImg from './images/Group 64 Copy.png'
-import { HomeSection , HomeDiv , IntoDIv , HomeH2 , HomeSpan , Button , DesignSection , MainBox , MainBoxWrap , Child , InfoDiv , InfoSpan , LiDiv , InfoLi ,ArrowImg} from './StyledComponents/styled';
+import { HomeSection , HomeDiv , IntoDIv , HomeH2 , HomeSpan , Button , DesignSection , MainBox , MainBoxWrap , Child , InfoDiv , InfoSpan , LiDiv , InfoLi ,ArrowImg} from './Components/styled';
 import ChildImg from './images/childimg.svg'
 import Arrow from './images/Path 5.svg'
-import MainFooter from './importantTags/Footer';
+import MainFooter from './Components/Footer';
 
 function App() {
   return (
