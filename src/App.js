@@ -22,7 +22,7 @@ function App() {
             <HomeSpan>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</HomeSpan>
             <Button>LEARN MORE</Button>
           </IntoDIv>
-          <img src={DivBackgroundImg}/>
+          <img alt='DivBackgroundImg' src={DivBackgroundImg}/>
         </HomeDiv>
       </HomeSection>
       <DesignSection>
@@ -33,10 +33,10 @@ function App() {
             </InfoSpan>
             <LiDiv>
               <InfoLi>VIEW PROJECTS</InfoLi>
-              <ArrowImg  src={Arrow} /> 
+              <ArrowImg alt='arrowimg'  src={Arrow} /> 
             </LiDiv>
           </InfoDiv>
-          <img src={MainBoxImg}></img>
+          <img alt='MainImg' src={MainBoxImg}></img>
         </MainBox>
 
         <MainBoxWrap>
@@ -47,10 +47,10 @@ function App() {
               </InfoSpan>
               <LiDiv>
                 <InfoLi>VIEW PROJECTS</InfoLi>
-                <ArrowImg  src={Arrow} /> 
+                <ArrowImg alt='arrow'  src={Arrow} /> 
               </LiDiv>
             </InfoDiv>
-            <img src={PoneImg}></img>
+            <img alt='phoneImg' src={PoneImg}></img>
           </Child>
           <Child>
             <InfoDiv>
@@ -59,10 +59,10 @@ function App() {
               </InfoSpan>
               <LiDiv>
                 <InfoLi>VIEW PROJECTS</InfoLi>
-                <ArrowImg  src={Arrow} /> 
+                <ArrowImg alt='Arrow'  src={Arrow} /> 
               </LiDiv>
             </InfoDiv>
-            <img src={ChildImg}></img>
+            <img alt='ChildImg' src={ChildImg}></img>
           </Child>
 
         </MainBoxWrap>

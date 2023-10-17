@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import Logo from '../images/Oval.svg'
 import FooterImg from '../images/Group 28.png'
 import { Nav , Ul , LogoDiv, Button ,} from './styled';
@@ -8,7 +7,8 @@ import twitterImg from '../socImg/twitter.svg'
 import PasImg from '../socImg/Pas.svg'
 import InstagramImg from '../socImg/Instagram.svg'
 import SocialImg from "../Links";
-import {SocialLinks , FootDiv , FootLi , FootTitle , Img ,
+import { Link } from 'react-router-dom';
+import {SocialLinks , FootDiv  , FootTitle , Img ,
   Line , FootSection , FootMainDiv , OnDiv , 
   OnDivInfo , OnDivH3 ,OnDivSpan , LeftContent , About , CompanyInfo} from  '../Components/styled'
 
@@ -30,25 +30,25 @@ const MainFooter = () => {
                         <Button>GET IN TOUCH</Button>
                     </div>
                 </OnDivInfo>
-                <Img src={FooterImg} />  
+                <Img alt='footerImg' src={FooterImg} />  
             </OnDiv>
             <FootDiv>
         <LogoDiv>
-          <img src={Logo} >
+          <img alt='Logoimg' src={Logo} >
           </img>
           <FootTitle>DESIGNO</FootTitle>
         </LogoDiv>
         <Nav>
-          <Ul>
-            <FootLi>
+        <Ul>
+            <Link to='/home'>
               OUR COMPANY
-            </FootLi>
-            <FootLi>
+            </Link>
+            <Link to = '/location'>
               LOCATIONS
-            </FootLi>
-            <FootLi>
+            </Link>
+            <Link to= '/contact'>
               CONTACTS
-            </FootLi>
+            </Link>
           </Ul>
         </Nav>
       </FootDiv>

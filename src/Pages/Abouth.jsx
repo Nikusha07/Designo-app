@@ -1,5 +1,5 @@
 import MainLayout from "../Components/layout/MainLayout";
-import { OnDivInfo , AImg , OnDivH3 , OnDivSpan , Img ,AboutUS } from "../Components/styled"
+import { OnDivH3 , OnDivSpan , Img ,AboutUS } from "../Components/styled"
 import FooterImg from '../images/Group 28.png'
 import AboutImg from '../images/Abouthimg.svg'
 import styled from "styled-components";

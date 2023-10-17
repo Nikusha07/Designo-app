@@ -1,13 +1,12 @@
 import Logo from '../images/Oval.svg'
-import { Header , Nav , Ul , Li , LogoDiv , Title} from './styled';
+import { Header , Nav , Ul , LogoDiv , Title} from './styled';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
 const MainHeader = () => {
     
     return (
         <Header>
         <LogoDiv>
-          <img src={Logo} >
+          <img alt='Logoimg' src={Logo} >
           </img>
           <Link to='/'> <Title>DESIGNO</Title> </Link>
         </LogoDiv>
@@ -16,10 +15,10 @@ const MainHeader = () => {
             <Link to='/home'>
               OUR COMPANY
             </Link>
-            <Link>
+            <Link to = '/location'>
               LOCATIONS
             </Link>
-            <Link>
+            <Link to= '/contact'>
               CONTACTS
             </Link>
           </Ul>
